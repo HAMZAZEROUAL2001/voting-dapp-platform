@@ -53,7 +53,7 @@ Une plateforme de vote décentralisée complète construite avec Solidity, React
 
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/voting-dapp-platform.git
+git clone https://github.com/HAMZAZEROUAL2001/voting-dapp-platform.git
 cd voting-dapp-platform
 
 # Configuration environnement WSL (recommandé)
@@ -218,14 +218,14 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 ## 👥 Équipe
 
-- **Développeur Principal** : Votre Nom
-- **Contributeurs** : [Liste des contributeurs](https://github.com/votre-username/voting-dapp-platform/contributors)
+- **Développeur Principal** : [Hamza ZEROUAL](https://github.com/HAMZAZEROUAL2001)
+- **Contributeurs** : [Liste des contributeurs](https://github.com/HAMZAZEROUAL2001/voting-dapp-platform/contributors)
 
 ## 📞 Support
 
-- **Documentation** : [Wiki](https://github.com/votre-username/voting-dapp-platform/wiki)
-- **Issues** : [GitHub Issues](https://github.com/votre-username/voting-dapp-platform/issues)
-- **Discussions** : [GitHub Discussions](https://github.com/votre-username/voting-dapp-platform/discussions)
+- **Documentation** : [Wiki](https://github.com/HAMZAZEROUAL2001/voting-dapp-platform/wiki)
+- **Issues** : [GitHub Issues](https://github.com/HAMZAZEROUAL2001/voting-dapp-platform/issues)
+- **Discussions** : [GitHub Discussions](https://github.com/HAMZAZEROUAL2001/voting-dapp-platform/discussions)
 
 ## 🌟 Remerciements
 
