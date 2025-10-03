@@ -1,0 +1,37 @@
+{
+  "name": "systeme-vote-decentralise",
+  "version": "1.0.0",
+  "description": "Un système de vote blockchain transparent et sécurisé construit avec Solidity et Hardhat.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [
+    "blockchain",
+    "voting",
+    "solidity",
+    "dapp"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.3"
+  },
+  "dependencies": {
+    "@web3-react/core": "^8.2.3",
+    "@web3-react/injected-connector": "^6.0.7",
+    "bootstrap": "^5.3.8",
+    "react-bootstrap": "^2.10.10"
+  }
+}
