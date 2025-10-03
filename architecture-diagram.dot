@@ -1,0 +1,71 @@
+digraph architecture {
+  rankdir=TB;
+  node [shape=box, style=filled, color=lightblue, fontname="Arial"];
+  
+  subgraph cluster_blockchain {
+    label = "Blockchain Layer";
+    style = filled;
+    color = lightgrey;
+    node [color=lightgreen];
+    
+    SmartContracts [label="Smart Contracts\n(Solidity)"];
+    VotingSystem [label="VotingSystem.sol"];
+    AdvancedVotingSystem [label="AdvancedVotingSystem.sol"];
+    
+    SmartContracts -> VotingSystem;
+    SmartContracts -> AdvancedVotingSystem;
+  }
+  
+  subgraph cluster_frontend {
+    label = "Frontend Layer";
+    style = filled;
+    color = lightgrey;
+    node [color=lightyellow];
+    
+    React [label="React App"];
+    Web3 [label="Web3 Integration\n(Ethers.js)"];
+    UI [label="User Interface\n(Bootstrap)"];
+    
+    React -> Web3;
+    React -> UI;
+  }
+  
+  subgraph cluster_backend {
+    label = "Backend Layer";
+    style = filled;
+    color = lightgrey;
+    node [color=lightpink];
+    
+    Flask [label="Flask API"];
+    SQLAlchemy [label="SQLAlchemy ORM"];
+    Database [label="Database\n(SQLite/PostgreSQL)"];
+    
+    Flask -> SQLAlchemy;
+    SQLAlchemy -> Database;
+  }
+  
+  subgraph cluster_devops {
+    label = "DevOps Layer";
+    style = filled;
+    color = lightgrey;
+    node [color=lightcyan];
+    
+    Docker [label="Docker"];
+    Tests [label="Automated Tests\n(Hardhat)"];
+    CI [label="CI/CD Pipeline\n(GitHub Actions)"];
+    
+    Docker -> CI;
+    Tests -> CI;
+  }
+  
+  // Cross-layer connections
+  Web3 -> SmartContracts [style=dashed, label="Interaction"];
+  Flask -> Web3 [style=dashed, label="API Calls"];
+  Flask -> SmartContracts [style=dashed, label="Events"];
+  
+  // User flow
+  User [shape=ellipse, color=lightgrey, label="User"];
+  User -> UI [label="Interacts"];
+  UI -> Web3 [label="Requests"];
+  Web3 -> User [label="Confirms"];
+}
