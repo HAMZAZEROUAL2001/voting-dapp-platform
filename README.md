@@ -4,6 +4,7 @@
 [![Solidity](https://img.shields.io/badge/Solidity-^0.8.19-blue)](https://soliditylang.org/)
 [![React](https://img.shields.io/badge/React-18-61dafb)](https://reactjs.org/)
 [![Hardhat](https://img.shields.io/badge/Hardhat-Framework-yellow)](https://hardhat.org/)
+[![Medium](https://img.shields.io/badge/Medium-Article-black)](https://medium.com/@hamzazeroual2001)
 
 ## 📋 Description
 
